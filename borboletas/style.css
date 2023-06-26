@@ -1,0 +1,17 @@
+:root {
+    --primeira-cor: #FFEBEB;
+    --segunda-cor: #FC2947;
+    --terceira-cor: #FE6244;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--primeira-cor);
+    color: var(--terceira-cor);
+    font-family: 'Montserrat', sans-serif;
+}
+
