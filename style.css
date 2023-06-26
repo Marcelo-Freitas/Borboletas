@@ -22,3 +22,27 @@ body{
     margin: 0;
     padding: 0;
 }
+
+body.site{
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;  
+    }
+body.site .container{
+        flex-grow: 1;
+    }
+.cabecalho {
+        margin: 2% 10% 2% 10%;  
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+    
+.cabecalho nav {
+            display: flex;
+            gap: 20px;
+        }
+    
+.cabecalho nav a {
+                text-decoration: none;
+                color: var(--terceira-cor);
+            }
