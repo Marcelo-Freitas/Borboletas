@@ -1,48 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Unbounded:wght@300&display=swap');
-
-:root{
-    --primeira-cor:#0081C9;
-    --segunda-cor:#5BC0F8;
-    --segunda-cor-hover:#86E5FF;
-    --terceira-cor:#FFC93C;
+:root {
+    --primeira-cor: #FFEBEB;
+    --segunda-cor: #FC2947;
+    --terceira-cor: #FE6244;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-header {
-    padding: 20px;
+body {
+    background: var(--primeira-cor);
     color: var(--terceira-cor);
+    font-family: 'Montserrat', sans-serif;
 }
 
-body{
-    background-color: var(--primeira-cor);
-    margin: 0;
-    padding: 0;
-}
-
-body.site{
+    .site {
         display: flex;
         flex-direction: column;
-        min-height: 100vh;  
-    }
-body.site .container{
+        min-height: 100vh;
+
+     }
+
+    .site .container {
         flex-grow: 1;
     }
+
 .cabecalho {
-        margin: 2% 10% 2% 10%;  
-        font-size: 1.3rem;
-        line-height: 1.5rem;
+    margin: 2% 10% 2% 10%;  
+}
+
+    .cabecalho nav {
+        display: flex;
+        gap: 20px;
     }
-    
-.cabecalho nav {
-            display: flex;
-            gap: 20px;
+
+        .cabecalho nav a {
+            text-decoration: none;
+            color: var(--terceira-cor);
         }
-    
-.cabecalho nav a {
-                text-decoration: none;
-                color: var(--terceira-cor);
-            }
+
+.container {
+    display: flex;
